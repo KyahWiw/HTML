@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--GARAPAN, JHON FRANCIS E.-->
+
+<html>
+<head>
+    <title>HTML VLinks</title>
+    <style>
+        a:link {
+            color: blue;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:visited {
+            color: skyblue;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:hover {
+            color: darkblue;
+            background-color: transparent;
+            text-decoration: none;
+        } 
+        a:active {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body style="font-family: 'Franklin Gothic Medium'; font-size: 20px; background-color: aqua;">
+    <h2>Garapan, Jhon Francis E.</h2>
+    <h2>LEC - TUE 12:00 nn-2:00 pm | LAB - MT 4:00 pm-5:30 pm</h2>
+    <h2>February 14, 2023</h2>
+    <hr>
+    <h2>Link Colors</h2>
+    <p> You can change the default colors of links </p>
+
+    <a href="https://www.arellano.edu.ph/" target="_blank">
+    <img src = "AUJAS.jpg" alt = "Arellano University - Jose Abad Santos Campus" width="500" height="300">
+    title = "Go to Arellano University Website" style="border-style: solid;"> <br>
+    Visit Arellano University Website </a>
+   <hr>
+    <h2>Link Titles</h2>
+    <p>The title attribute specifies extra information about an element.
+        The infomation is most often shown as a tooptip twxt when the mouse moves over the element.
+    </p>
+    
+    <a href="https://www.w3schools.com/html/default.asp" target="_blank" title="Go to W3School HTML">Visit the w3school HTML</a>
+</body>
+</html>
